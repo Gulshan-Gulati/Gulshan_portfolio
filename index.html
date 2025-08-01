@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan Kumar - Software Developer Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Gulshan Kumar</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Gulshan Kumar</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Computer Science student at KIIT University with expertise in front-end development, 
+                        , and competitive programming. Passionate about creating innovative 
+                        solutions and contributing to impactful projects.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            View Projects
+                        </a>
+                        <a href="#" class="btn btn-secondary" id="download-cv">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Gulshan-Gulati/" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gulshan-22d2004" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/GulsGulati/" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="mailto:gulshangulatimtsn181@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="floating-elements">
+                            <div class="floating-element" data-speed="0.5">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-element" data-speed="0.8">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-element" data-speed="0.3">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-element" data-speed="0.6">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">My technical expertise and proficiencies</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VSCode</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Canva</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Core Concepts</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">OS</span>
+                        <span class="skill-tag">AI/ML</span>
+                        <span class="skill-tag">DBMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey and qualifications</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <div class="education-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="education-info">
+                                    <h3>Kalinga Institute of Industrial Technology</h3>
+                                    <h4>Bachelor of Technology in Computer Science</h4>
+                                    <div class="education-meta">
+                                        <span class="duration">
+                                            <i class="fas fa-calendar"></i>
+                                            Sept 2022 - Present
+                                        </span>
+                                        <span class="location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            Bhubaneswar, India
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-description">
+                                <p>Currently pursuing Bachelor's degree in Computer Science with focus on software development, 
+                                algorithms, and emerging technologies.</p>
+                                <div class="education-highlights">
+                                    <div class="highlight-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Data Structures and Algorithms</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Object-Oriented Programming</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Database Management Systems</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="fas fa-check"></i>
+                                        <span>Machine Learning & AI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my technical expertise through innovative solutions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Gulshan-Gulati/Pathfinding-Visualizer.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://path-finding-dsa-based.netlify.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Pathfinding Visualizer">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Pathfinding Algorithm Visualizer</h3>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <p class="project-description">
+                            Interactive pathfinding simulator visualizing BFS, DFS, Dijkstra's, and A* algorithms 
+                            with real-time animations and performance analytics.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>50% faster user comprehension through interactive animations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-cogs"></i>
+                                <span>Optimized with React memoization for smooth 50x20 grids</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mouse"></i>
+                                <span>Drag-and-drop interface with configurable speed controls</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://drive.google.com/drive/folders/14r_ZpTdR_3kV8cbhqElP2w9AFwa9eZA9?usp=sharing" target="_blank" class="project-link">
+                                    <i class="fas fa-link"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-database"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Inventory Management System">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Smart India Hackathon - Inventory Management</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            Centralized inventory management system for police departments with AI-powered 
+                            predictive maintenance and real-time dashboard analytics.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-chart-pie"></i>
+                                <span>40% reduction in inventory discrepancies</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-robot"></i>
+                                <span>AI-powered predictive maintenance system</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>Recognized at Smart India Hackathon 2024</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://gift-of-hope.netlify.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="https://images.pexels.com/photos/6995253/pexels-photo-6995253.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Donation Website">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Donation & Waste Management Platform</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            Responsive web application facilitating donations and waste management for 
+                            underprivileged communities with structured categorization system.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Fully responsive design with CSS media queries</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-tags"></i>
+                                <span>Structured donation categories (food, clothing, books, funds)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-share-alt"></i>
+                                <span>Integrated social media and real-time contact forms</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Gulshan-Gulati/ReactSphere_project.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://react-sphere-git-main-gulshans-projects-c66a9dae.vercel.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=500" alt="ReactSphere">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>ReactSphere</h3>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <p class="project-description">
+                            Multi-page React application with dynamic routing, GitHub API integration, 
+                            and optimized performance through code splitting.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-route"></i>
+                                <span>React Router with dynamic content rendering</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fab fa-github"></i>
+                                <span>Real-time GitHub API data integration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-cut"></i>
+                                <span>Route-based code splitting for improved performance</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">React Router</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">GitHub API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <p class="section-subtitle">Recognition of my skills and professional development</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Flipkart Grid 6.0</h3>
+                        <p class="certification-issuer">Flipkart</p>
+                        <p class="certification-description">
+                            Successfully cleared Level 1 of Flipkart Grid 6.0 (Software Development Track) 
+                            demonstrating expertise in software development and e-commerce technologies.
+                        </p>
+                        <div class="certification-meta">
+                            <span class="certification-year">2024</span>
+                            <a href="https://drive.google.com/file/d/1sYzsG-ZJVISeUzxo4BAYp5IQFMrVGY6g/view?usp=sharing" target="_blank" class="certification-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Deloitte Technology Job Simulation</h3>
+                        <p class="certification-issuer">Deloitte via Forage</p>
+                        <p class="certification-description">
+                            Completed comprehensive technology job simulation gaining practical experience 
+                            in coding, development tasks, and dashboard creation proposals.
+                        </p>
+                        <div class="certification-meta">
+                            <span class="certification-year">2024</span>
+                            <a href="#" class="certification-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Sparkathon Hackathon</h3>
+                        <p class="certification-issuer">Walmart</p>
+                        <p class="certification-description">
+                            I participated in Sparkathon 2025 
+                            organized by Walmart Global Tech and was selected as a
+                             certified participant for presenting an innovative tech
+                              solution aligned with modern retail challenges.
+                        </p>
+                        <div class="certification-meta">
+                            <span class="certification-year">2025</span>
+                            <a href="https://drive.google.com/file/d/1YKtUSHV5ejpIOZezW0wYOAGLie8UyAqO/view?usp=sharing" class="certification-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Smart India Hackathon 2024</h3>
+                        <p class="certification-issuer">Government of India</p>
+                        <p class="certification-description">
+                            Participated in Smart India Hackathon 2024, developing innovative solutions 
+                            for real-world problems with focus on inventory management systems.
+                        </p>
+                        <div class="certification-meta">
+                            <span class="certification-year">2024</span>
+                            <a href="#" class="certification-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:gulshangulatimtsn181@gmail.com">gulshangulatimtsn181@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+916204640394">+91 6204640394</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/gulshan-22d2004" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Gulshan-Gulati/" target="_blank">View my repositories</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Gulshan Kumar</h3>
+                    <p>Computer Science Student & Software Developer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Gulshan-Gulati/" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gulshan-22d2004" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/GulsGulati/" target="_blank" class="social-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="mailto:gulshangulatimtsn181@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gulshan Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
